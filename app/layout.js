@@ -1,4 +1,3 @@
-"use client";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -14,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
-        {/* <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> */}
+
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
       </body>
     </html>
